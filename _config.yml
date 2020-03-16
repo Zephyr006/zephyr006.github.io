@@ -35,7 +35,7 @@ kramdown:
   syntax_highlighter: rouge
 #  coderay:
 #    coderay_line_numbers:  nil
-#  toc_levels: 2
+  toc_levels: 2
 #  auto_id_stripping: true
 
 plugins:
