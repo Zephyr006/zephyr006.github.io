@@ -26,17 +26,17 @@ baidu-analytics: b4761476287fea924071c3ecae0bb04c
 # Build Settings
 markdown: kramdown
 kramdown:
-#  input: GFM
+  toc_levels: "1,2,3"    # 要通过toc生成目录的标题级别（h1，h2...）
+#  auto_id_stripping: true
+  input: GFM
+  syntax_highlighter: rouge
 #  extensions:
 #    - autolink
 #    - footnotes
 #    - smart
 #  use_coderay: false
-#  syntax_highlighter: rouge
 #  coderay:
 #    coderay_line_numbers:  nil
-  toc_levels: "3"
-#  auto_id_stripping: true
 
 plugins:
   - jekyll-sitemap
