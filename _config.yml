@@ -1,4 +1,4 @@
-title: Hello, world! I'm Zephyrus
+title: Hello, world! I'm Zephyr006
 description: > # this means to ignore newlines until "baseurl:"
   Zephyrus的个人主页. Zephyr006的个人主页.
 permalink: ':title/'
@@ -7,7 +7,7 @@ url: "https://zephyr006.github.io" # the base hostname & protocol for your site,
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author: Zephyrus # add your name
+author: Zephyr006 # add your name
 author-img: Zephyr006.jpg # add your photo
 about-author: 一个不断学习的佛系青年. # add description
 social-twitter: https://www.cnblogs.com/wang1024 # add your Twitter handle
