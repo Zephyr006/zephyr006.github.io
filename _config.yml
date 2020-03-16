@@ -31,10 +31,10 @@ kramdown:
     - autolink
     - footnotes
     - smart
-  use_coderay: true
+  use_coderay: false
   syntax_highlighter: rouge
-  coderay:
-    coderay_line_numbers:  nil
+#  coderay:
+#    coderay_line_numbers:  nil
 #  toc_levels: 2
 #  auto_id_stripping: true
 
