@@ -36,7 +36,7 @@ kramdown:
 #  coderay:
 #    coderay_line_numbers:  nil
   toc_levels: 3
-  auto_id_stripping: true
+#  auto_id_stripping: true
 
 plugins:
   - jekyll-sitemap
