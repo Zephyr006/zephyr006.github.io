@@ -25,7 +25,7 @@ baidu-analytics: b4761476287fea924071c3ecae0bb04c
 
 # Build Settings
 markdown: kramdown
-highlighter: rouge
+#highlighter: rouge
 kramdown:
   toc_levels: "1,2"    # 要通过toc生成目录的标题级别（h1，h2...）
 #  auto_id_stripping: true
