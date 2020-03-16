@@ -25,6 +25,19 @@ baidu-analytics: b4761476287fea924071c3ecae0bb04c
 
 # Build Settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+  use_coderay: true
+  syntax_highlighter: rouge
+  coderay:
+    coderay_line_numbers:  nil
+  toc_levels: 3
+  auto_id_stripping: true
+
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
