@@ -5,15 +5,18 @@
 <!--  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');-->
 <!--  ga('create', '{{ site.analytics }}', 'auto');-->
 <!--  ga('send', 'pageview');-->
-<!--</script> &lt;!&ndash; End Analytics &ndash;&gt;-->
+<!--</script> -->
+<!-- End Google Analytics -->
 
 
-<!--<script>-->
-<!--    var _hmt = _hmt || [];-->
-<!--    (function() {-->
-<!--        var hm = document.createElement("script");-->
-<!--        hm.src = "https://hm.baidu.com/hm.js?b4761476287fea924071c3ecae0bb04c";-->
-<!--        var s = document.getElementsByTagName("script")[0];-->
-<!--        s.parentNode.insertBefore(hm, s);-->
-<!--    })();-->
-<!--</script>-->
+
+<!-- baidu analytics -->
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?{{ site.baidu-analytics }}";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>

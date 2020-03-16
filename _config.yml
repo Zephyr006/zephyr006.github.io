@@ -1,9 +1,9 @@
-title: Hello, world! I'm Zephyr006
+title: Hello, I'm Zephyr006.
 description: > # this means to ignore newlines until "baseurl:"
   Zephyrus的个人主页. Zephyr006的个人主页.
 permalink: ':title/'
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://zephyr006.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://zephyr006.github.io"  # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
@@ -21,6 +21,7 @@ discus-identifier: mr-brown # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
+baidu-analytics: b4761476287fea924071c3ecae0bb04c
 
 # Build Settings
 markdown: kramdown
@@ -28,6 +29,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
+  - jekyll-toc
 
 paginate: 8
 paginate_path: "/page/:num"
