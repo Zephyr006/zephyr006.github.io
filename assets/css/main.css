@@ -21,6 +21,7 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 body {
+  font-size: 26px;
   margin: 0;
 }
 
@@ -40,8 +41,8 @@ section {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-h1 {
-  font-size: 1.5em;
+h1, h2, h3 {
+  /*font-size: 1.2em;*/
   margin: 0.6em 0;
 }
 
@@ -1165,7 +1166,7 @@ footer .copyright {
 
 .post .post-content .post-title {
   margin: 0 0 10px;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 400;
 }
 
