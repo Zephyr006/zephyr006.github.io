@@ -6,10 +6,7 @@ description: 在Jekyll（+Github Pages）博客中使用默认的kramdown编辑�
 img:  # Add image post (optional)
 tags: [kramdown,Jekyll,toc] 
 ---
-<strong>Table of Contents</strong>
 
-1. The generated Toc will be an ordered list
-{:toc} 
 
 kramdown支持自动生成目录。 只需将参考名称“ toc”分配给有序列表或无序列表，该列表将被实际目录替换，如果将“ toc”应用于无序列表则将其呈现为嵌套无序列表，否则将其呈现为嵌套有序列表。 应用于原始列表的所有属性也将应用于生成的TOC列表，如果未设置ID，则它将获得markdown-toc的ID。
 
