@@ -17,7 +17,7 @@ social-github: Zephyr006 # add your Github handle
 social-email: wangxiansen512@163.com # add your Email address
 
 # Disqus
-discus-identifier: mr-brown # add your discus identifier
+discus-identifier:  # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
@@ -25,12 +25,11 @@ baidu-analytics: b4761476287fea924071c3ecae0bb04c
 
 # Build Settings
 markdown: kramdown
-#highlighter: rouge
 kramdown:
   toc_levels: "1,2"    # 要通过toc生成目录的标题级别（h1，h2...）
 #  auto_id_stripping: true
-#  input: GFM
-#  syntax_highlighter: rouge
+  input: GFM
+  syntax_highlighter: rouge
 #  extensions:
 #    - autolink
 #    - footnotes
