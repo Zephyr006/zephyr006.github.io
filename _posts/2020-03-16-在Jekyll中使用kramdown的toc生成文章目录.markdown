@@ -48,6 +48,7 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
+
 {% highlight java %}
 public static void main(String[] args) {
     System.out.println("1233");
