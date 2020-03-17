@@ -5,8 +5,8 @@ date: 2020-03-16 13:32:20 +0300
 description: 在Jekyll（+Github Pages）博客中使用默认的kramdown编辑器自带的toc目录生成功能生成markdown的目录 # (optional)
 img:  # Add image post (optional)
 ---
+
 **Table of Contents**
-{:.no_toc}
 - this unordered seed list will be replaced by toc as unordered list
 {:toc} 
 
@@ -14,6 +14,20 @@ img:  # Add image post (optional)
 项目使用`Jekyll • 简单静态博客网站生成器`搭建，并且markdown编辑器使用`kramdown`
 https://kramdown.gettalong.org/converter/html.html#toc
 
+# 参数配置
+如果不想特定标题出现在目录中，可以使用`{:.no_toc}`
+
+# toc目录的使用
+```markdown
+**Table of Contents**
+- this unordered seed list will be replaced by toc as unordered list
+{:toc} 
+```
+~~~markdown
+**Table of Contents**
+- this unordered seed list will be replaced by toc as unordered list
+{:toc} 
+~~~
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

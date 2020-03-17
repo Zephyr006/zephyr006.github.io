@@ -884,7 +884,7 @@ table tfoot td {
 }
 
 .wrapper {
-  max-width: 1250px;
+  max-width: 1300px;
   position: relative;
 }
 
@@ -1147,7 +1147,7 @@ footer .copyright {
 
 .post .post-content {
   padding: 1rem;
-  /*width: 70%;*/
+  width: auto;
 }
 
 .post .post-content .post-date,

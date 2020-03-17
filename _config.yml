@@ -10,9 +10,9 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Zephyr006 # add your name
 author-img: Zephyr006.jpg # add your photo
 about-author: 一个不断学习的佛系青年. # add description
-social-twitter: https://www.cnblogs.com/wang1024 # add your Twitter handle
-social-facebook: https://me.csdn.net/weixin_44204615 # add your Facebook handle
-social-linkedin: https://www.jianshu.com/u/baf4da096fc5 # add your Linkedin handle
+social-twitter:  # add your Twitter handle
+social-facebook:  # add your Facebook handle
+social-linkedin:  # add your Linkedin handle
 social-github: Zephyr006 # add your Github handle
 social-email: wangxiansen512@163.com # add your Email address
 
