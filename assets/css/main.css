@@ -41,8 +41,8 @@ section {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-h1, h2, h3 {
-  /*font-size: 1.2em;*/
+h1 {
+  font-size: 1.8em;
   margin: 0.6em 0;
 }
 
@@ -789,7 +789,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
+h1, h2, h3 {
   font-weight: 500;
 }
 
