@@ -5,17 +5,16 @@ date: 2017-04-06 13:32:20 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img:  # Add image post (optional)
 ---
+# Contents header
+{:.no_toc}
+
 <h4>Table of Contents</h4>
-- this unordered seed list will be replaced by toc as unordered list
-{:toc}
-
-
 1. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
 
 # one
-## two
+## 二级标题
 ### 三级
 #### 四级
 
