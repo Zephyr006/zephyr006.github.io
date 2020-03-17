@@ -817,7 +817,7 @@ blockquote {
 }
 
 pre {
-  padding: 1rem 1rem;
+  padding: 0.4rem 1rem;
   overflow: auto;
   white-space: pre-wrap;
   word-wrap: break-word;
