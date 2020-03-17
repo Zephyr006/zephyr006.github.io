@@ -27,7 +27,6 @@ baidu-analytics: b4761476287fea924071c3ecae0bb04c
 markdown: kramdown
 kramdown:
   toc_levels: "1,2"    # 要通过toc生成目录的标题级别（h1，h2...）
-  parse_block_html: true
   input: GFM
   syntax_highlighter: rouge
   syntax_highlighter_opts:
