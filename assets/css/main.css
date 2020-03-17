@@ -817,11 +817,14 @@ blockquote {
 }
 
 pre {
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   overflow: auto;
   white-space: pre-wrap;
   word-wrap: break-word;
   word-break: break-all;
+}
+pre.highlight {
+  line-height: normal;
 }
 
 pre code {
@@ -892,7 +895,7 @@ table tfoot td {
 }
 
 .wrapper {
-  max-width: 1300px;
+  max-width: 1400px;
   position: relative;
 }
 

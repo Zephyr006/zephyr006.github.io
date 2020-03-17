@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "在jekyll中使用kramdown的toc生成文章目录"
+title: "在Jekyll中使用kramdown的toc生成文章目录"
 date: 2020-03-16 13:32:20 +0300
 description: 在Jekyll（+Github Pages）博客中使用默认的kramdown编辑器自带的toc目录生成功能生成markdown的目录 # (optional)
 img:  # Add image post (optional)
