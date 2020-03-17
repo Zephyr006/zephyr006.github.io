@@ -8,10 +8,7 @@ tags: [kramdown,Jekyll,toc]
 ---
 <strong>Table of Contents</strong>
 
-- this unordered seed list will be replaced by toc as unordered list
-{:toc} 
-
-1. this unordered seed list will be replaced by toc as unordered list
+1. The generated Toc will be an ordered list
 {:toc} 
 
 kramdown支持自动生成目录。 只需将参考名称“ toc”分配给有序列表或无序列表，该列表将被实际目录替换，如果将“ toc”应用于无序列表则将其呈现为嵌套无序列表，否则将其呈现为嵌套有序列表。 应用于原始列表的所有属性也将应用于生成的TOC列表，如果未设置ID，则它将获得markdown-toc的ID。
@@ -20,7 +17,9 @@ kramdown支持自动生成目录。 只需将参考名称“ toc”分配给有�
 
 # toc目录的使用
 
-生成无序列表形式的目录
+在Jekyll博客的每篇文章开头加上下方的特定代码，即可实现文章目录自动生成
+
+生成无序列表形式的目录：
 
 ```markdown
 <strong>Table of Contents</strong>
@@ -28,7 +27,7 @@ kramdown支持自动生成目录。 只需将参考名称“ toc”分配给有�
 {:toc} 
 ```
 
-生成有序列表形式的目录
+生成有序列表形式的目录（实践证明这样写并不能正确生成有序目录，原因未知）：
 
 ```markdown
 <strong>Table of Contents</strong>
@@ -43,7 +42,15 @@ kramdown支持自动生成目录。 只需将参考名称“ toc”分配给有�
 {:.no_toc}
 ```
 
+# 参数配置
 
+在_config.yml文件中，可以配置一些参数：
+
+```
+markdown: kramdown     # 指定markdown编辑器
+kramdown:
+  toc_levels: "1,2"    # 要通过toc指令生成目录的标题级别，例如："1,3"意味着只有h1、h3标题会生成到目录中
+```
 
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
