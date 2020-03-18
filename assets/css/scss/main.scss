@@ -113,6 +113,19 @@ table tfoot td {
   position: relative;
 }
 
+.post-meta-divider {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+.post-meta-item-text {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+.leancloud-visitors-count{
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
 .post, .article-page {
   background-color: #fff;
 }
