@@ -19,7 +19,7 @@ layout: main
         <h2 class="page-title">{{page.title}}</h2>
         <div class="page-date">
           <span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span>
-          {% if site.leancloud.hit_count_enable %}
+          {% if site.leancloud.visitors_count_enable %}
             <span>-&nbsp;&nbsp;&nbsp;</span>
 <!--            <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">-->
 <!--              <span class="post-meta-item-text">Hits：</span>-->
@@ -27,7 +27,7 @@ layout: main
 <!--            </span>-->
             <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
               <em class="post-meta-item-text">Views：</em>
-              <i class="leancloud-visitors-count">loading..</i>
+              <i class="leancloud-visitors-count">Loading..</i>
             </span>
           {% endif %}
         </div>

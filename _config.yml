@@ -25,7 +25,7 @@ baidu-analytics: b4761476287fea924071c3ecae0bb04c
 
 # visitors count and comments
 leancloud:
-  hit_count_enable: true
+  visitors_count_enable: true
   valine_enable: true
   app_id: uVxBr36Ym96YfMR8D4zM6W4K-gzGzoHsz
   app_key: 2hPyUvz8kUp1UvgABujAb9M5
