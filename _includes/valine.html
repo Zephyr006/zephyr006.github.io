@@ -24,8 +24,8 @@
       el: '#vcomments',
       appId: "{{site.leancloud.app_id}}",
       appKey: "{{site.leancloud.app_key}}",
-      notify: false,
-      verify: false,
+      notify: false, // 评论回复提醒
+      verify: true,  // 验证码
       avatar: 'mp',
       pageSize: 6,
       visitor: "{{site.leancloud.hit_count_enable}}",
