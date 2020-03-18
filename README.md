@@ -1,8 +1,13 @@
 # Flexible-Jekyll is a simple and clean theme for Jekyll  
 
-[Jekyll模板主页](https://github.com/artemsheludko/flexible-jekyll)
+
 ---
 
+# Function
+[Valine](https://valine.js.org/quickstart.html)：博客阅读量统计与免登陆评论
+[flexible-jekyll](https://github.com/artemsheludko/flexible-jekyll)：使用的Jekyll模板
+
+# Additional
 js获取请求用户的ip地址
 ```javascript
     let ipScript = Utils.create('script', 'src', '//api.ip.sb/jsonip?callback=getIP');
