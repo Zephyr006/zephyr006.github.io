@@ -21,9 +21,13 @@ layout: main
           <span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span>
           {% if site.leancloud.hit_count_enable %}
             <span>-&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<!--            <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">-->
+<!--              <span class="post-meta-item-text">Hits：</span>-->
+<!--              <span class="leancloud-visitors-count"></span>-->
+<!--            </span>-->
             <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
-              <span class="post-meta-item-text">Hits：</span>
-              <span class="leancloud-visitors-count"></span>
+              <em class="post-meta-item-text">阅读量 </em>
+              <i class="leancloud-visitors-count">1000000</i>
             </span>
           {% endif %}
         </div>
@@ -41,7 +45,7 @@ layout: main
           {% endfor %}
         </div>
       </div>
-      {% include comment.html %}
+      {% include valine.html %}
     </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
 </article> <!-- End Article Page -->
