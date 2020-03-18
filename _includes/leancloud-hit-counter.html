@@ -6,17 +6,21 @@
 <script>AV.initialize("{{site.leancloud.app_id}}", "{{site.leancloud.app_key}}");</script>
 <script>
     function showHitCount(HitCounter) {
+        /* 这是给一个页面中有多篇文章时所调用的，例如博客主界面或者存档界面。 */
         var query = new AV.Query(HitCounter);
         var entries = [];
         var $visitors = $(".leancloud_visitors");
 
+        // 获取页面中所有文章的id（page.url）
         $visitors.each(function () {
             entries.push( $(this).attr("id").trim() );
         });
 
+        // 批量查询
         query.containedIn('url', entries);
-        query.find()
-            .done(function (results) {
+        query.find().done(
+            function (results) {
+                console.log(results);
                 var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
 
                 if (results.length === 0) {
@@ -42,7 +46,7 @@
                 }
             })
             .fail(function (object, error) {
-                console.log("Error: " + error.code + " " + error.message);
+                console.error("Error: " + error.code + " " + error.message);
             });
     }
 
