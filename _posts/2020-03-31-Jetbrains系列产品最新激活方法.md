@@ -4,7 +4,7 @@ title: "Jetbrains系列产品2019.3.3最新激活破解方法"
 date: 2020-03-31 13:32:20 +0300
 description: Jetbrains系列产品2019.3.3及以下版本最新激活破解方法 # (optional)
 img:  # Add image post (optional)
-tags: [JetBrains破解,IDEA破解,IDEA激活] 
+tags: [JetBrains破解,IDEA激活,IDEA破解] 
 ---
 
 # 破解文件下载
@@ -14,19 +14,6 @@ tags: [JetBrains破解,IDEA破解,IDEA激活]
 
 
 - <a href="https://github.com/Zephyr006/zephyr006.github.io/tree/master/_attachments/jetbrains/2019-3-3.zip" target="_blank" title="点击下载">2019.3.3 破解文件</a>
-
-**破解文件适用产品如下：**
-
-- **IntelliJ IDEA** 
-- **AppCode** 
-- **CLion** 
-- **DataGrip** 
-- **GoLand** 
-- **PhpStorm** 
-- **PyCharm** 
-- **Rider** 
-- **RubyMine** 
-- **WebStorm** 
 
 # 破解方法
 
@@ -40,11 +27,22 @@ tags: [JetBrains破解,IDEA破解,IDEA激活]
     *如果激活窗⼝⼀直弹出（error 1653219），请去hosts⽂件⾥ 移除 jetbrains相关的项⽬。*
     *License key is in legacy format == Key invalid，表示agent配置未⽣效。*
 
-
 IDE升级会从旧版本导⼊以上设置，导⼊配置后可能提示未注册（因为刚导⼊的vmoptions未⽣效），直接重启IDE即可，⽆需其他操作。
 
 
 
+**破解文件适用产品如下：**
+
+- **IntelliJ IDEA** 
+- **WebStorm** 
+- **AppCode** 
+- **CLion** 
+- **DataGrip** 
+- **GoLand** 
+- **PhpStorm** 
+- **PyCharm** 
+- **Rider** 
+- **RubyMine** 
 
 
 > 本项⽬只做学习研究之⽤，不得⽤于商业⽤途！
