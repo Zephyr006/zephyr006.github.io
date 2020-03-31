@@ -10,7 +10,7 @@ tags: [kramdown,Jekyll,toc]
 
 kramdown支持自动生成目录。 只需将参考名称“ toc”分配给有序列表或无序列表，该列表将被实际目录替换，如果将“ toc”应用于无序列表则将其呈现为嵌套无序列表，否则将其呈现为嵌套有序列表。 应用于原始列表的所有属性也将应用于生成的TOC列表，如果未设置ID，则它将获得markdown-toc的ID。
 
-设置auto_ids选项时，所有标头都将显示在目录中，因为它们都具有ID。 将类名称“ no_toc”分配给标题以将其从目录中排除。[<官方文档>](https://kramdown.gettalong.org/converter/html.html#toc)
+设置auto_ids选项时，所有标头都将显示在目录中，因为它们都具有ID。 将类名称“ no_toc”分配给标题以将其从目录中排除。[官方文档](https://kramdown.gettalong.org/converter/html.html#toc)
 
 # toc目录的使用
 
