@@ -3,21 +3,9 @@ description: > # this means to ignore newlines until "baseurl:"
   Zephyrus的个人主页. Zephyr006的个人主页.
 permalink: ':title/'
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://zephyr006.github.io"  # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
 
-# Author Settings
-author: Zephyr006 # add your name
-author-img: Zephyr006.jpg # add your photo
-about-author: 一个不断学习的佛系青年 # add description
-social-twitter:  # add your Twitter handle
-social-facebook:  # add your Facebook handle
-social-linkedin:  # add your Linkedin handle
-social-github: Zephyr006 # add your Github handle
-social-email: wangxiansen512@163.com # add your Email address
 
-# Disqus
-discus-identifier:  # add your discus identifier
+theme: jekyll-theme-leap-day
 
 # Tracker
 analytics: # Google Analytics
@@ -30,29 +18,6 @@ leancloud:
   app_id: uVxBr36Ym96YfMR8D4zM6W4K-gzGzoHsz
   app_key: 2hPyUvz8kUp1UvgABujAb9M5
 
-# Build Settings
-markdown: kramdown
-kramdown:
-  toc_levels: "1,2"    # 要通过toc生成目录的标题级别（h1，h2...）
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    default_lang: java
-  extensions:
-    - autolink
-    - footnotes
-    - smart
-#  use_coderay: false
-#  coderay:
-#    coderay_line_numbers:  nil
-
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jemoji
-
-
 paginate: 8
-paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
