@@ -1,0 +1,35 @@
+<!--<section class="comment-area">-->
+<!--  <div class="comment-wrapper">-->
+<!--    {% if site.discus-identifier %}-->
+<!--    <div id="disqus_thread" class="article-comments"></div>-->
+<!--    <script>-->
+<!--      (function() {-->
+<!--          var d = document, s = d.createElement('script');-->
+<!--          s.src = '//{{ site.discus-identifier }}.disqus.com/embed.js';-->
+<!--          s.setAttribute('data-timestamp', +new Date());-->
+<!--          (d.head || d.body).appendChild(s);-->
+<!--      })();-->
+<!--    </script>-->
+<!--    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>-->
+<!--    {% endif %}-->
+<!--  </div>-->
+<!--</section> -->
+<!-- End Comment Area -->
+
+{% if site.leancloud.valine_enable %}
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <div id="vcomments"></div>
+  <script>
+    new Valine({
+      el: '#vcomments',
+      appId: "{{site.leancloud.app_id}}",
+      appKey: "{{site.leancloud.app_key}}",
+      notify: false, // 评论回复提醒
+      verify: true,  // 验证码
+      avatar: 'mp',
+      pageSize: 6,
+      visitor: "{{site.leancloud.visitors_count_enable}}",
+      placeholder: 'go go go.'
+    })
+  </script>
+{% endif %}

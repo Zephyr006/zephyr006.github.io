@@ -1,15 +1,17 @@
+theme: jekyll-theme-leap-day
+
+
 title: Hello, I'm Zephyr006.
 description: > # this means to ignore newlines until "baseurl:"
   Zephyrus的个人主页. Zephyr006的个人主页.
 permalink: ':title/'
 url: "https://zephyr006.github.io"  # the base hostname & protocol for your site
 
-
-
-theme: jekyll-theme-leap-day
-
 show_downloads: false
 lang: zh-CN
+github:
+  owner_url: https://github.com/Zephyr006
+  owner_name: Zephyr006
 
 # Tracker
 google_analytics: # Google Analytics
