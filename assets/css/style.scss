@@ -4,12 +4,12 @@
 @import "{{ site.theme }}";
 
 body {
-    font:20px/38px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font:22px/38px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
     color:#2b2b2b;
     font-weight:300;
     margin: 0px;
     padding:0px 0 20px 0px;
-    background: url(../images/body-background.png) #eae6d1;
+    background-color: #eae6d1;
 }
 
 header {
@@ -21,13 +21,12 @@ header {
     right:0;
     width: 100%;
     text-align: center;
-    background: url(../images/background.png) #ffcc00;
+    background-color:  #ffcc00;
     border: 1px solid #f0b500;
     border-radius: 0px 2px 2px 0px;
     box-shadow: 0px 1px 3px rgba(0,0,0,.25);
-    z-index:99;
     -webkit-font-smoothing:antialiased;
-    min-height: 50px;
+    min-height: 40px;
 
 }
 
@@ -36,10 +35,19 @@ nav {
     position: fixed;
     top: 220px;
     left: 50%;
-    margin-left: -700px;
+    margin-left: -680px;
     text-align: right;
 }
+footer {
+    margin-left:-660px;
+    bottom:25px;
+}
+
 .wrapper {
     width: 800px;
+}
+section {
+    width: 800px;
+    margin-top: 110px;
 }
 
