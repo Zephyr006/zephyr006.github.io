@@ -49,8 +49,12 @@ footer {
 }
 
 .highlight {
-    font-size: 21px;
-    line-height: 24px;
+    font-size: 22px;
+    line-height: 20px;
+}
+
+blockquote {
+    font-style: normal;
 }
 
 .pagination ul li{
@@ -61,14 +65,15 @@ h1 {
     font-size:30px;
 }
 h2 {
-    font-size: 26px;
+    font-size: 28px;
     color:#000000;
 }
 h3 {
-    font-size: 24px;
+    font-size: 26px;
+    color:#000000;
 }
 h4, h5, h6 {
-    font-size: 22px;
+    font-size: 24px;
 }
 
 
