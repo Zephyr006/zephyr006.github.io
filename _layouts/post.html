@@ -10,8 +10,13 @@
 
     <div class="wrapper">
       <nav>
-        <h2>{{ page.title }}</h2>
+        <h3>{{ page.title }}</h3>
         <ul></ul>
+
+        <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
+          <em class="post-meta-item-text">点击量：</em>
+          <i class="leancloud-visitors-count">Loading...</i>
+        </span>
       </nav>
       <section>
         {{ content }}

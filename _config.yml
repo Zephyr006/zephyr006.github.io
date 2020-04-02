@@ -4,8 +4,8 @@ theme: jekyll-theme-leap-day
 title: Zephyr's Home.
 description: > # this means to ignore newlines until "baseurl:"
   Zephyrus的个人主页. Zephyr006的个人主页.
-permalink: ':title/'
 url: "https://zephyr006.github.io"  # the base hostname & protocol for your site
+#permalink: ':title/'
 
 show_downloads: false
 lang: zh-CN
@@ -24,7 +24,7 @@ leancloud:
   app_id: uVxBr36Ym96YfMR8D4zM6W4K-gzGzoHsz
   app_key: 2hPyUvz8kUp1UvgABujAb9M5
 
-paginate: 8
+paginate: 3
 paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
