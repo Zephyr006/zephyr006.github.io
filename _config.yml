@@ -14,7 +14,7 @@ github:
   owner_name: Zephyr006
 
 # Tracker
-google_analytics: # Google Analytics
+google_analytics: false # Google Analytics
 baidu-analytics: b4761476287fea924071c3ecae0bb04c
 
 # visitors count and comments
@@ -25,5 +25,6 @@ leancloud:
   app_key: 2hPyUvz8kUp1UvgABujAb9M5
 
 paginate: 8
+paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
