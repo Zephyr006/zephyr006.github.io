@@ -8,6 +8,7 @@ permalink: ':title/'
 theme: jekyll-theme-leap-day
 
 show_downloads: false
+lang: zh-CN
 
 # Tracker
 google_analytics: # Google Analytics
