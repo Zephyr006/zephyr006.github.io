@@ -7,8 +7,10 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 
 theme: jekyll-theme-leap-day
 
+show_downloads: false
+
 # Tracker
-analytics: # Google Analytics
+google_analytics: # Google Analytics
 baidu-analytics: b4761476287fea924071c3ecae0bb04c
 
 # visitors count and comments
