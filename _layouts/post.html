@@ -5,10 +5,11 @@
 
   <body>
       <header>
-        <h1><a href="{{ site.url }}" style="color: inherit;">{{ page.title | default: site.title | default: site.github.repository_name }}</a></h1>
+        <h1><a href="{{ site.url }}" style="color: inherit;">{{ site.title | default: site.github.repository_name }}</a></h1>
       </header>
 
     <div class="wrapper">
+        <h2>{{ page.title }}</h2>
       <nav>
         <ul></ul>
       </nav>
@@ -16,11 +17,11 @@
         {{ content }}
       </section>
 
-      {% include valine.html %}
-
       <footer>
         <p>Powered by <a href="{{ site.github.owner_url }}" target="_blank">{{ site.github.owner_name }}</a></p>
       </footer>
+
+      {% include valine.html %}
     </div>
 
   </body>
