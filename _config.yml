@@ -2,6 +2,7 @@ title: Hello, I'm Zephyr006.
 description: > # this means to ignore newlines until "baseurl:"
   Zephyrus的个人主页. Zephyr006的个人主页.
 permalink: ':title/'
+url: "https://zephyr006.github.io"  # the base hostname & protocol for your site
 
 
 
