@@ -24,7 +24,7 @@ leancloud:
   app_id: uVxBr36Ym96YfMR8D4zM6W4K-gzGzoHsz
   app_key: 2hPyUvz8kUp1UvgABujAb9M5
 
-paginate: 3
+paginate: 8
 paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
