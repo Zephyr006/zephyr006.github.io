@@ -5,7 +5,7 @@ title: Zephyr's Home.
 description: > # this means to ignore newlines until "baseurl:"
   Zephyrus的个人主页. Zephyr006的个人主页.
 permalink: '/:title/'  # 文章链接生成策略
-baseurl: "https://zephyr006.github.io"  # the base hostname & protocol for your site
+url: "https://zephyr006.github.io"  # the base hostname & protocol for your site
 
 show_downloads: false
 lang: zh-CN
