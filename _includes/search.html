@@ -1,5 +1,8 @@
 
 <div id="search-container">
+    <label for="search-input">
+        <i class="fa fa-search" aria-hidden="true"></i>
+    </label>
     <input type="text" id="search-input" placeholder="Search..." style="border:2px solid;border-radius:25px;padding-left:10px !important;">
     <ul id="results-container" style="max-width:350px;"></ul>
 </div>
@@ -9,7 +12,7 @@
     var sjs = SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        json: '/search.json',
+        json: '{{ site.url }}/assets/search.json',
         searchResultTemplate: '<li><a href="{{ site.url }}{url}" title="{desc}">{title}</a></li>',
         noResultsText: 'No results found',
         limit: 8,
