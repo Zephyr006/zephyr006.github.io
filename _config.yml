@@ -3,8 +3,8 @@ theme: jekyll-theme-leap-day
 
 title: Zephyr's Home.
 description: > # this means to ignore newlines until "baseurl:"
-  Zephyrus的个人主页. Zephyr006的个人主页.
-permalink: '/:title/'  # 文章链接生成策略
+  Zephyr的个人主页.
+permalink: '/:year/:title/'  # 文章链接生成策略
 url: "https://zephyr006.github.io"  # the base hostname & protocol for your site
 
 show_downloads: false
