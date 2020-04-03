@@ -1,26 +1,23 @@
 
 <div id="search-container">
+    <input type="text" id="search-input" placeholder="Search..." style="border:2px solid;border-radius:25px;padding-left:10px !important;">
     <label for="search-input">
         <i class="fa fa-search" aria-hidden="true"></i>
     </label>
-    <input type="text" id="search-input" placeholder="Search..." style="border:2px solid;border-radius:25px;padding-left:10px !important;">
     <ul id="results-container" style="max-width:350px;"></ul>
 </div>
 
+
 <script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
 <script>
-    var sjs = SimpleJekyllSearch({
+    window.simpleJekyllSearch = new SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        json: '{{ site.url }}/assets/search.json',
-        searchResultTemplate: '<li><a href="{{ site.url }}{url}" title="{desc}">{title}</a></li>',
+        json: '{{ site.baseurl }}/assets/search.json',
+        searchResultTemplate: '<li><a href="{{ site.baseurl }}{url}" title="{desc}">{title}</a></li>',
         noResultsText: 'No results found',
         limit: 8,
         fuzzy: true,
-        exclude: ['Welcome'],
-        templateMiddleware: function(prop, value, template) {
-
-        }
+        exclude: ['Welcome']
     })
-
 </script>
