@@ -7,7 +7,7 @@ layout: null
         "title"    : "{{ post.title | escape }}",
         "category" : "{{ post.category }}",
         "tags"     : "{{ post.tags | join: ', ' }}",
-        "url"      : "{{ post.description | escape }}",
+        "url"      : "{{ post.description | escape }}"
         } {% unless forloop.last %},{% endunless %}
     {% endfor %}
     ,
