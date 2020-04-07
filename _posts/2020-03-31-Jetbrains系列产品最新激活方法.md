@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Jetbrains系列产品2019.3.3最新激活破解方法"
+title: "Jetbrains系列最新破解激活方法"
 date: 2020-03-31 13:32:20 +0300
-description: Jetbrains系列产品2019.3.3及以下版本最新激活破解方法 # (optional)
+description: Jetbrains系列产品最新激活破解方法 # (optional)
 img:  # Add image post (optional)
 tags: [JetBrains破解,IDEA激活,IDEA破解] 
 ---
