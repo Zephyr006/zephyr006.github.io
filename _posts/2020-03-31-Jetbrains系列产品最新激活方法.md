@@ -43,15 +43,15 @@ IDE升级会从旧版本导⼊以上设置，导⼊配置后可能提示未注�
 - **Rider** 
 - **RubyMine** 
 
-  
+---
 
-  
-# 附：JDK免登陆下载  
+# 附：Oracle JDK免登陆下载
 
-**[www.filehorse.com](https://www.filehorse.com/search?q=java%20jdk)  **
-
+[**www.filehorse.com**](https://www.filehorse.com/search?q=java%20jdk) 
 
 
+
+---
 >
 > 本项⽬只做学习研究之⽤，不得⽤于商业⽤途！
 >
