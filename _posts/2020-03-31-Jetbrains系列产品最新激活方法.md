@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jetbrains系列最新破解激活方法"
-date: 2020-03-31 13:32:20 +0300
+date: 2099-01-01 13:32:20 +0300
 description: Jetbrains系列产品最新激活破解方法 # (optional)
 img:  # Add image post (optional)
 tags: [JetBrains破解,IDEA激活,IDEA破解] 
@@ -47,7 +47,15 @@ IDE升级会从旧版本导⼊以上设置，导⼊配置后可能提示未注�
 
 # 附：Oracle JDK免登陆下载
 
-[**www.filehorse.com**](https://www.filehorse.com/search?q=java%20jdk) 
+<a href="https://www.filehorse.com/download-java-development-kit-64/46502/" target="_blank">**直接下载 Windows & JDK 8u241（64bit）**</a>
+
+<a href="https://mac.filehorse.com/download-java-development-kit/13749/" target="_blank">**直接下载 Mac & JDK 8u241（64bit）**</a>
+
+[**多版本可选 => www.filehorse.com**](https://www.filehorse.com/search?q=java%20jdk) 
+
+<a href="https://filehippo.com/download_java_development_kit_64/8-update-162/" target="_blank">**filehippo.com**</a>
+
+
 
 
 
