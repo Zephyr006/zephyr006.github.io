@@ -47,13 +47,13 @@ IDE升级会从旧版本导⼊以上设置，导⼊配置后可能提示未注�
 
 # Oracle JDK免登陆下载
 
-<a href="https://www.filehorse.com/download-java-development-kit-64/46502/" target="_blank">**直接下载 Windows & JDK 8u241（64bit）**</a>
+- <a href="https://www.filehorse.com/download-java-development-kit-64/46502/" target="_blank">直接下载 Windows & JDK 8u241（64bit）</a>
 
-<a href="https://mac.filehorse.com/download-java-development-kit/13749/" target="_blank">**直接下载 Mac & JDK 8u241（64bit）**</a>
+- <a href="https://mac.filehorse.com/download-java-development-kit/13749/" target="_blank">直接下载 Mac & JDK 8u241（64bit）</a>
 
-[**多版本可选 => www.filehorse.com**](https://www.filehorse.com/search?q=java%20jdk) 
+- <a href="https://www.filehorse.com/search?q=java%20jdk" target="_blank">多版本可选 => www.filehorse.com</a>
 
-<a href="https://filehippo.com/download_java_development_kit_64/8-update-162/" target="_blank">**filehippo.com**</a>
+- <a href="https://filehippo.com/download_java_development_kit_64/8-update-162/" target="_blank">filehippo.com</a>
 
 
 
