@@ -6,8 +6,10 @@
 <!--    begin seo tag-->
     <meta content="{{ site.title }}" property="og:site_name">
     {% if page.title %}
+    <title>{{ page.title }}</title>
     <meta content="{{ page.title }}" property="og:title">
     {% else %}
+    <title>{{ site.title }}</title>
     <meta content="{{ site.title }}" property="og:title">
     {% endif %}
     {% if page.title %}
@@ -19,9 +21,6 @@
     <meta content="{{ page.description }}" property="og:description">
     {% else %}
     <meta content="{{ site.description }}" property="og:description">
-    {% endif %}
-    {% if page.url %}
-    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
     {% endif %}
     {% if page.date %}
     <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
