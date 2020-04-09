@@ -47,7 +47,7 @@ IDE升级会从旧版本导⼊以上设置，导⼊配置后可能提示未注�
 
 # 附：Oracle JDK免登陆下载
 
-[**www.filehorse.com**](https://www.filehorse.com/search?q=java%20jdk) 
+[**www.filehorse.com**](https://www.filehorse.com/search?q=java+jdk) 
 
 
 
