@@ -45,9 +45,8 @@ IDE升级会从旧版本导⼊以上设置，导⼊配置后可能提示未注�
 
 ---
 
-# 附：Oracle JDK免登陆下载
+# Oracle JDK免登陆下载
 
-<<<<<<< HEAD:_posts/2020-03-31-Jetbrains系列产品最新激活方法.md
 <a href="https://www.filehorse.com/download-java-development-kit-64/46502/" target="_blank">**直接下载 Windows & JDK 8u241（64bit）**</a>
 
 <a href="https://mac.filehorse.com/download-java-development-kit/13749/" target="_blank">**直接下载 Mac & JDK 8u241（64bit）**</a>
@@ -55,11 +54,6 @@ IDE升级会从旧版本导⼊以上设置，导⼊配置后可能提示未注�
 [**多版本可选 => www.filehorse.com**](https://www.filehorse.com/search?q=java%20jdk) 
 
 <a href="https://filehippo.com/download_java_development_kit_64/8-update-162/" target="_blank">**filehippo.com**</a>
-
-
-=======
-[**www.filehorse.com**](https://www.filehorse.com/search?q=java+jdk) 
->>>>>>> 457e66363b5c6151f580a3f6403cd31d1771ae65:_posts/2099-01-01-Jetbrains系列产品最新激活方法.md
 
 
 
