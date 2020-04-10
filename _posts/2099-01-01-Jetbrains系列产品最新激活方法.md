@@ -11,9 +11,10 @@ tags: [JetBrains破解,IDEA激活,IDEA破解]
 
 破解文件原则上**向下兼容**。例如：版本号2019.3.3的破解文件，在2019.3.2、2019.3.1... 上均能激活成功，但是更推荐在对应版本的IDE上使用。
 
-
-
 - <a href="https://github.com/Zephyr006/zephyr006.github.io/tree/master/_attachments/jetbrains/2019-3-3.zip" target="_blank" title="点击下载">2019.3.3 破解文件</a>
+
+- <a href="https://github.com/Zephyr006/zephyr006.github.io/tree/master/_attachments/jetbrains/2019-3-4.zip" target="_blank" title="点击下载">2019.3.4 破解文件</a>
+
 
 # 破解方法
 
@@ -47,13 +48,15 @@ IDE升级会从旧版本导⼊以上设置，导⼊配置后可能提示未注�
 
 # Oracle JDK免登陆下载
 
-- <a href="https://www.filehorse.com/download-java-development-kit-64/46502/" target="_blank">直接下载 Windows & JDK 8u241（64bit）</a>
+- <a href="https://pan.baidu.com/s/1Nq-lSC06s3YoFHEyX34aag" target="_blank">百度云直接下载 JDK 8u241（64bit）- 提取码: att5</a>
 
 - <a href="https://mac.filehorse.com/download-java-development-kit/13749/" target="_blank">直接下载 Mac & JDK 8u241（64bit）</a>
 
 - <a href="https://www.filehorse.com/search?q=java%20jdk" target="_blank">多版本可选 => www.filehorse.com</a>
 
 - <a href="https://filehippo.com/download_java_development_kit_64/8-update-162/" target="_blank">filehippo.com</a>
+
+- 授之以渔：`intitle "index of /" jdk-8u241-windows-x64.exe`
 
 
 
