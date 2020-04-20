@@ -9,11 +9,16 @@ tags: [JetBrains破解,IDEA激活,IDEA破解]
 
 # 破解文件下载
 
-破解文件原则上**向下兼容**。例如：版本号2019.3.3的破解文件，在2019.3.2、2019.3.1... 上均能激活成功，但是更推荐在对应版本的IDE上使用。
+破解文件原则上**向下兼容**。例如：版本号2019.3.3的破解文件，在2019.3.2、2019.3.1... 上均能激活成功（更推荐在对应版本的IDE上使用）。
+
+- <a href="https://github.com/Zephyr006/zephyr006.github.io/tree/master/_attachments/jetbrains" target="_blank">【破解文件汇总】</a>
+
+- <a href="https://github.com/Zephyr006/zephyr006.github.io/tree/master/_attachments/jetbrains/2020-1.zip" target="_blank" title="点击下载">2020.1 破解文件</a>
+
+- <a href="https://github.com/Zephyr006/zephyr006.github.io/tree/master/_attachments/jetbrains/2019-3-4.zip" target="_blank" title="点击下载">2019.3.4 破解文件</a>
 
 - <a href="https://github.com/Zephyr006/zephyr006.github.io/tree/master/_attachments/jetbrains/2019-3-3.zip" target="_blank" title="点击下载">2019.3.3 破解文件</a>
 
-- <a href="https://github.com/Zephyr006/zephyr006.github.io/tree/master/_attachments/jetbrains/2019-3-4.zip" target="_blank" title="点击下载">2019.3.4 破解文件</a>
 
 
 # 破解方法
