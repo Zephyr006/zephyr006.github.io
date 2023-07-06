@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-
+# 国内: https://gems.ruby-china.com/
 source "https://rubygems.org"
 
 gem "jekyll-theme-chirpy", "~> 6.1"

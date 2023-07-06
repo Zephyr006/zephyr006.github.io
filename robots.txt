@@ -1,0 +1,10 @@
+User-agent: Baiduspider			# 百度爬虫
+Disallow: /baidu					# 不允许爬取/baidu下的内容
+Disallow: /link?					# 不允许爬取/link?下的内容
+
+User-agent: Googlebot			# 谷歌爬虫
+Allow: /                  # 允许爬取指定页面， 为 / 时爬取整站
+
+User-agent: *            	# 其它爬虫，指robots.txt文件协议中没有指出的其它爬虫
+Allow: /             			# 不允许爬取网站的所有目录及内容
+
